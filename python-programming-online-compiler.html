@@ -376,36 +376,7 @@ print("Hello world")</div>
       </div>
     </div>
 
-    <script defer type="text/javascript">
-
-      var playStoreUrl =
-          "https://play.google.com/store/apps/details?id=com.programiz.learnpython",
-        appStoreUrl =
-          "https://apps.apple.com/app/apple-store/id1472188189?pt=120228772",
-        desktopUrl = "https://www.programiz.com/learn-python";
-
-      var os, a;
-
-      a = document.getElementById("ad-link");
-      b = document.getElementById("mobile-ad-link");
-
-      var lang = "python";
-      var href = "https://app.programiz.com/app-compiler";
-      var app = "Python";
-
-      if(lang == 'c') {
-        href = "https://learncprogramiz.page.link/app-compiler";
-        app = "C";
-      } else if(lang == 'java') {
-        href = "https://learnjavaprogramiz.page.link/app-compiler";
-        app = "Java";
-      }
-
-      a.innerHTML = `Learn ${app} App`;
-      b.innerHTML = `Learn ${app}`;
-      a.href = href;
-      b.href = href;
-    </script>
+    
     <!-- The use of the cloudflare cdn for all external libraries is intential. We are trying to reduce the number
          of DNS lookups.
     -->
